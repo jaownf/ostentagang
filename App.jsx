@@ -15,7 +15,7 @@ import './App.css'
 
 // Import new assets
 import logo from './assets/logo.svg'
-import heroImage from './assets/hero-streetwear.jpg'
+import bannerInicial from 'src/assets/bannerinicial.png'
 import product1 from './assets/camiseta-premium-1.jpg'
 import product2 from './assets/camiseta-premium-2.jpg'
 import product3 from './assets/hoodie-streetwear-1.jpg'
@@ -286,7 +286,7 @@ function App() {
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: `url(${heroImage})` }}
+          style={{ backgroundImage: `url(${bannerInicial})` }}
         >
           <div className="absolute inset-0 bg-black/60"></div>
         </div>

@@ -14,8 +14,8 @@ import ProductModal from './components/ProductModal.jsx'
 import './App.css'
 
 // Import new assets
-import logo from './assets/1-3.svg'
-import heroImage from './assets/hero-streetwear.jpg'
+import logo from './assets/logoostenta.png'
+import heroImage from './assets/bannerinicial.png'
 import product1 from './assets/camiseta-premium-1.jpg'
 import product2 from './assets/camiseta-premium-2.jpg'
 import product3 from './assets/hoodie-streetwear-1.jpg'
