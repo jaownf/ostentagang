@@ -13,13 +13,13 @@ import Cart from './components/Cart.jsx'
 import ProductModal from './components/ProductModal.jsx'
 import './App.css'
 
-// Import new assets
-import logo from './assets/bannerinicial.png'
+// Import assets
+import logo from './assets/logoostenta.png'
 import heroImage from './assets/bannerinicial.png'
-import product1 from './assets/Banner-foto-desert.png'
-import product2 from './assets/Banner-foto-desert.png'
-import product3 from './assets/Banner-foto-desert.png'
-import product4 from './assets/Banner-foto-desert.png'
+import product1 from './assets/camiseta-premium-1.jpg'
+import product2 from './assets/camiseta-premium-2.jpg'
+import product3 from './assets/hoodie-streetwear-1.jpg'
+import product4 from './assets/calca-cargo-1.jpg'
 import product5 from './assets/jaqueta-bomber-1.jpg'
 import product6 from './assets/tenis-streetwear-1.jpg'
 import product7 from './assets/bone-streetwear-1.jpg'
@@ -1084,6 +1084,8 @@ function App() {
         onClose={() => setIsProductModalOpen(false)}
         product={selectedProduct}
         onAddToCart={addToCart}
+        onToggleFavorite={toggleFavorite}
+        isFavorite={selectedProduct ? favorites.has(selectedProduct.id) : false}
       />
     </div>
   )
